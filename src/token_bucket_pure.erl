@@ -10,6 +10,9 @@
 		consume/2,
 		cooldown_advice/2
 	]).
+-export_type([
+		bucket/0
+	]).
 
 -define(s, ?MODULE).
 
